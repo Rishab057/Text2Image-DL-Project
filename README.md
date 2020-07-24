@@ -1,4 +1,5 @@
-# Text2Image using multi-stage GAN models
+# Text2Image using multi-stage GAN models : [Paper Link](https://drive.google.com/file/d/1tZHDR1iawSpDizEn-82nj3j9SsdrIh-7/view?usp=sharing)
+### Authors: Gaurav Kumar Jindal, Sanchit Sinha and Rishab Bamrara
 
 - The steps to train a our version of StackGAN model on the Birds dataset using the preprocessed embeddings.
 
