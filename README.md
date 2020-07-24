@@ -8,3 +8,17 @@
 
   - Step 2: train Stage-II GAN 
   `python main.py --config_name 'stageII' --dataset_name 'birds' --embedding_type 'cnn-rnn' --gpu_id '2' --z_dim 100 --data_dir '../data/birds' --image_size 256 --workers 4 --stage 2 --cuda True --train_flag True --batch_size 16 --max_epoch 100 --snapshot_interval 5 --lr_decay_epoch 20 --discriminator_lr 0.0002 --generator_lr 0.0002 --coef_kl 2.0 --condition_dim 128 --df_dim 96 --gf_dim 192 --res_num 2 --text_dim 1024 --stage1_g '../output/Birds_Stage_I_JSD/Model/netG_epoch_100.pth'  --regularizer 'JSD'`
+
+## Model Architecture
+![Model Architecture](https://github.com/jindal2309/DL_project/blob/master/Images/architecture.PNG?raw=true)
+
+## Example
+![Example](https://github.com/jindal2309/DL_project/blob/master/Images/example.png?raw=true)
+
+## Birds Dataset Output
+![birds_stageI_image.png](https://github.com/jindal2309/DL_project/blob/master/Images/birds_stageI_image.png?raw=true)
+
+
+## COCO Dataset Output
+![coco_stageI_image.png](https://github.com/jindal2309/DL_project/blob/master/Images/coco_stageI_image.png?raw=true)
+
